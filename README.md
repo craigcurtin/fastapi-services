@@ -1,4 +1,8 @@
-# Abstracting FastAPI Services
+# Demo of FastAPI Services
+
+this is a simple sketleton of a FastAPI Service ...
+1. Clone the project, 
+
 
 ## Makefile
 
@@ -17,4 +21,16 @@ $ make create-items
 
 $ make get-items
 ```
+
+
+## to get the OpenAPI docs ... try the below urls in browser
+
+http://0.0.0.0:7000/openapi.json
+
+http://0.0.0.0:7000/docs
+
+http://0.0.0.0:7000/redoc
+
+
+
 
