@@ -19,9 +19,7 @@ from utils.app_exceptions import app_exception_handler
 
 create_tables()
 
-
 app = FastAPI()
-
 
 @app.exception_handler(StarletteHTTPException)
 async def custom_http_exception_handler(request, e):
