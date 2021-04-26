@@ -1,6 +1,12 @@
 test:
 	run pytest
 
+docker:
+	docker build . --tag fastapi-services
+
+run: 
+	 docker run  fastapi-services
+
 create-items:
 	curl -X POST localhost:7000/foo/item/   --data '{"description":"some item a, description", "public":false}' --verbose
 	curl -X POST localhost:7000/foo/item/   --data '{"description":"some item b,  description", "public":false}' --verbose
