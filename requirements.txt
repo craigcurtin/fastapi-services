@@ -1,0 +1,6 @@
+fastapi
+pytz
+loguru
+sqlalchemy
+uvicorn
+
