@@ -25,12 +25,14 @@ $ make get-items
 
 ## to get the OpenAPI docs ... try the below urls in browser
 
-http://0.0.0.0:7000/openapi.json
-
+### standard openapi
 http://0.0.0.0:7000/docs
 
+### redoc descriptions
 http://0.0.0.0:7000/redoc
 
+### below will return the json value for importing 
+http://0.0.0.0:7000/openapi.json
 
 
 
